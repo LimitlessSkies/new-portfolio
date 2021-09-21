@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  height: 100vh;
+  height: 98vh;
   font-family: "Bitter", serif;
 }
 .container {
@@ -31,6 +31,7 @@ body {
   padding: 1rem;
   max-width: 300px;
   margin-left: auto;
+  margin-bottom: 2rem;
 }
 .menu > button {
   padding: 1.5rem 0.5rem;
