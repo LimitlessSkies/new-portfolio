@@ -5,6 +5,7 @@
 }
 body {
   height: 100vh;
+  font-family: "Bitter", serif;
 }
 .container {
   width: 100%;
@@ -12,4 +13,12 @@ body {
   background-image: url(Wave1.svg);
   background-position: 75% 100%;
   background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.title {
+  margin-top: 10%;
+  margin-left: 10%;
+  font-size: 1.6rem;
 }
