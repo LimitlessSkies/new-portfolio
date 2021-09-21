@@ -1,0 +1,18 @@
+<svg viewBox="0 0 952 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path fill="rgba(47, 73, 94, 1)" d="M 0 500 C 392.40000000000003 500 43.599999999999966 310 436 310 L 436 310 L 436 0 L 0 0 Z" stroke-width="0"></path> <path fill="rgba(47, 73, 94, 1)" d="M 435 310 C 678 310 462 133 705 133 L 705 133 L 705 0 L 435 0 Z" stroke-width="0"></path> <path fill="rgba(47, 73, 94, 1)" d="M 704 133 C 927.2 133 728.8 0 952 0 L 952 0 L 952 0 L 704 0 Z" stroke-width="0"></path></svg>
+
+
+.container {
+ display: block;
+ position: relative;
+ top: -2px;
+ height: 500px;
+ background-image: url('data:image/svg+xml;utf8,<svg viewBox="0 0 952 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path fill="rgba(47, 73, 94, 1)" d="M 0 500 C 392.40000000000003 500 43.599999999999966 310 436 310 L 436 310 L 436 0 L 0 0 Z" stroke-width="0"></path> <path fill="rgba(47, 73, 94, 1)" d="M 435 310 C 678 310 462 133 705 133 L 705 133 L 705 0 L 435 0 Z" stroke-width="0"></path> <path fill="rgba(47, 73, 94, 1)" d="M 704 133 C 927.2 133 728.8 0 952 0 L 952 0 L 952 0 L 704 0 Z" stroke-width="0"></path></svg>');
+ background-size: cover;
+ background-repeat: no-repeat;
+}
+
+@media (max-width:951px) {
+ .div {
+   background-size: contain;
+ }
+}
