@@ -18,7 +18,30 @@ body {
   justify-content: space-between;
 }
 .title {
-  margin-top: 10%;
-  margin-left: 10%;
+  padding-top: 10%;
+  padding-left: 10%;
   font-size: 1.6rem;
+  max-width: 60%;
+}
+.menu {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 2fr 2fr;
+  grid-gap: 5px;
+  padding: 1rem;
+  max-width: 300px;
+  margin-left: auto;
+}
+.menu > button {
+  padding: 1.5rem 0.5rem;
+  text-align: center;
+  background: none;
+  color: white;
+  border: 1px solid white;
+}
+
+@media only screen and (max-width: 325px) {
+  .menu {
+    margin-right: auto;
+  }
 }
