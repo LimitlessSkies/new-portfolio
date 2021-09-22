@@ -27,22 +27,25 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 2fr 2fr;
-  grid-gap: 5px;
-  padding: 1rem;
+  grid-gap: 20px;
+  /* padding: 0 24% 5% 0; */
   max-width: 300px;
   margin-left: auto;
-  margin-bottom: 2rem;
+  margin-bottom: 5%;
+  margin-right: 25%;
 }
 .menu > button {
-  padding: 1.5rem 0.5rem;
+  padding: 2rem 0.7rem;
   text-align: center;
   background: none;
   color: white;
   border: 1px solid white;
+  font-size: 100%;
 }
 
 @media only screen and (max-width: 400px) {
   .menu {
     margin-right: auto;
+    padding: 1rem;
   }
 }
